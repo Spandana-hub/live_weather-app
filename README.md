@@ -26,6 +26,8 @@ A responsive Live Weather Application built using HTML, CSS, JavaScript, Bootstr
 
 
 
+
+
 🛠️ Tech Stack:
 
 HTML5 – Structure
@@ -39,3 +41,31 @@ JavaScript (ES6) – Logic & API handling
 jQuery – DOM manipulation
 
 OpenWeatherMap API – Weather & AQI data
+
+
+
+🔑 API Setup (Important)
+
+This project uses OpenWeatherMap APIs.
+
+
+
+Go to 👉 https://openweathermap.org/
+
+Sign up / log in
+
+Generate an API key
+
+
+
+🌟 Future Improvements:
+
+🌍 Auto-detect user location
+
+🔄 Loading spinner while fetching data
+
+🔔 Toast notifications instead of alerts
+
+📈 Hourly forecast chart
+
+🌙 Dark/light mode toggle
