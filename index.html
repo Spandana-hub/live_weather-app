@@ -164,7 +164,7 @@
         }
 
         async function fetchAQIData(lat, lon) {
-            let fetchAQIData = await fetch(`https://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=c4263604c3192140a51e3bbbd1d67277`)
+            let fetchAQIData = await fetch(`https://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=YOUR API KEY`)
             let formattedData = await fetchAQIData.json();
             console.log('AQI Data: ', formattedData);
             let list = formattedData.list[0].components;
@@ -188,7 +188,7 @@
 
         async function nextFiveDays(lat, lon) {
 
-            const apiUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=c4263604c3192140a51e3bbbd1d67277&units=metric`;
+            const apiUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=YOUR API KEY&units=metric`;
             try {
                 const response = await fetch(apiUrl);
                 if (!response.ok) {
@@ -239,7 +239,7 @@
 
 
         async function todayTemps(lat, lon) {
-            const apiUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=c4263604c3192140a51e3bbbd1d67277&units=metric`;
+            const apiUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=YOUR API KEY&units=metric`;
 
             try {
                 const response = await fetch(apiUrl);
@@ -282,7 +282,7 @@
         async function fetchData() {
 
             let cityName = document.getElementsByClassName('inputfield')[0].value;
-            let requestData = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=c4263604c3192140a51e3bbbd1d67277&units=metric`)
+            let requestData = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=YOUR API KEY&units=metric`)
             let formattedData = await requestData.json();
 
             if (formattedData.cod !== 200) {
