@@ -1,5 +1,7 @@
 🌤️ Weather Forecast Web App
+
 🚀 Live Demo
+
 🔗 https://liveweather-app-vercel.vercel.app/
 
 It is a responsive weather web application that allows users to fetch real-time weather data, air quality index (AQI), and multi-day forecasts for any city. It also supports location-based weather retrieval using the browser's Geolocation API.
