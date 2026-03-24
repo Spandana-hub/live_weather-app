@@ -5,6 +5,7 @@
 It is a responsive weather web application that allows users to fetch real-time weather data, air quality index (AQI), and multi-day forecasts for any city. It also supports location-based weather retrieval using the browser's Geolocation API.
 
 
+
 ✨ Features
 
 🔍 Search weather by city name
@@ -24,6 +25,7 @@ It is a responsive weather web application that allows users to fetch real-time 
 ⚡ Dynamic data rendering using JavaScript
 
 
+
 🛠️ Tech Stack
 
 HTML
@@ -33,6 +35,7 @@ CSS (Bootstrap + custom styling)
 JavaScript
 
 Weather API from OpenWeather
+
 
 
 🧠 Learnings
@@ -46,11 +49,13 @@ Implementing Geolocation API.
 Improving UI/UX with responsive design.
 
 
+
 ⚠️ Note on API Key
 
 This project uses a public API key for demonstration purposes.
 
 In a production environment, API keys should be secured using a backend server and environment variables.
+
 
 
 🚀 Future Improvements
